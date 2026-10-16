@@ -44,7 +44,7 @@ jobs:
           name: rapport-checkstyle
           path: |
             target/checkstyle-result.xml
-            target/site/checkstyle.html    
+            target/reports/checkstyle.html
 
       - name: Analyse CodeQL
         uses: github/codeql-action/analyze@v4
