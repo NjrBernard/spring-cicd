@@ -102,13 +102,13 @@
 				<executions>
 					<execution>
 						<goals>
-						</goals>
+						 </goals>
 					</execution>
 					<execution>
 						<id>report</id>
 						<phase>verify</phase>
 						<goals>
-						</goals>
+						 </goals>
 					</execution>
 				</executions>
 			</plugin>
@@ -124,7 +124,7 @@
 						<id>checkstyle-report</id>
 						<phase>verify</phase>
 						<goals>
-						</goals>
+						 </goals>
 					</execution>
 				</executions>
 			</plugin>
